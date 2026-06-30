@@ -27,7 +27,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-5xl md:text-7xl font-display font-bold tracking-tight mb-6 leading-[1.1]"
+            className="text-4xl sm:text-5xl md:text-7xl font-display font-bold tracking-tight mb-6 leading-[1.1]"
           >
             {t('hero.title1')}<span className="text-gradient">{t('hero.titleHighlight')}</span>{t('hero.title2')}
           </motion.h1>

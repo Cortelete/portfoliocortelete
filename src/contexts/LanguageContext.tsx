@@ -60,6 +60,7 @@ const translations: Record<Language, Record<string, string>> = {
     'resume.description': 'Minha trajetória profissional e habilidades técnicas.',
     'resume.experience': 'Experiência',
     'resume.skills': 'Habilidades',
+    'resume.education': 'Educação',
     
     // Footer
     'footer.title': 'Vamos criar',
@@ -129,6 +130,7 @@ const translations: Record<Language, Record<string, string>> = {
     'resume.description': 'My professional journey and technical skills.',
     'resume.experience': 'Experience',
     'resume.skills': 'Skills',
+    'resume.education': 'Education',
     
     // Footer
     'footer.title': 'Let\'s create',

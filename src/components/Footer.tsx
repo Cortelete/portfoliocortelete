@@ -26,16 +26,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div>
-            <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tight mb-6">
+            <h2 className="text-3xl md:text-5xl font-display font-bold tracking-tight mb-6">
               {t('footer.title')} <br/><span className="text-gradient">{t('footer.subtitle')}</span>
             </h2>
-            <p className="text-zinc-400 text-lg max-w-md mb-8">
+            <p className="text-zinc-400 text-base md:text-lg max-w-md mb-8">
               {t('footer.description')}
             </p>
             
             <a 
               href="mailto:d.cortelete@gmail.com" 
-              className="inline-flex items-center gap-2 text-2xl font-display font-medium hover:text-purple-400 transition-colors group"
+              className="inline-flex items-center gap-2 text-xl md:text-2xl font-display font-medium hover:text-purple-400 transition-colors group"
             >
               d.cortelete@gmail.com
               <ArrowUpRight className="opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all" size={24} />

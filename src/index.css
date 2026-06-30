@@ -9,6 +9,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Native scrollbar styling for mobile (auto-hides naturally) */
+    scrollbar-color: #a855f7 transparent;
+    scrollbar-width: thin;
   }
   body {
     @apply bg-zinc-950 text-zinc-50 font-sans antialiased selection:bg-purple-500/30 selection:text-purple-200;
@@ -19,3 +22,19 @@
   @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400;
 }
 
+/* Custom RGB Scrollbar for Desktop (where it doesn't need to auto-hide) */
+@media (hover: hover) and (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #3b82f6, #a855f7, #ec4899);
+    border-radius: 10px;
+  }
+}

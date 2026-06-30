@@ -111,7 +111,7 @@ export default function Resume() {
             <div>
               <div className="flex items-center gap-3 mb-8 text-zinc-100">
                 <GraduationCap className="text-pink-400" />
-                <h3 className="text-2xl font-display font-bold">Educação</h3>
+                <h3 className="text-2xl font-display font-bold">{t('resume.education')}</h3>
               </div>
               <div className="space-y-4">
                 {education.map((edu, index) => (

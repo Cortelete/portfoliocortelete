@@ -33,7 +33,7 @@ export default function DigitalCard() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-5xl font-display font-bold text-zinc-100 tracking-tight mb-6"
+              className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-zinc-100 tracking-tight mb-6"
             >
               {t('card.title1')} <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-zinc-400">
